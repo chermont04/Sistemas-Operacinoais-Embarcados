@@ -1,0 +1,39 @@
+1. O que são sistemas embarcados?
+	Um sistema embarcado é um sistema microprocessado no qual o computador
+	é completamente encapsulado ou dedicado ao dispositivo ou sistema que ele controla.
+
+2. O que são sistemas microprocesssados?
+	Um sistema microprocessado é composto por uma unidade central de processamento(CPU)
+	e um conjunto de periféricos necessários o seu funcionamento.
+
+3. Apresente aplicações de sistemas embarcados: (a) Para a indústria automotiva; (b) Para eletrodomésticos; (c) Para automação industrial.
+	Dentro da industria automotiva há diversas áreas para a aplicação de sistemas embarcados, dentre elas:
+		-Sistema de GPS e navegação;
+		-Controle de motor e injeção eletrônica;
+		-Controle de Tração, entre outras aplicações.
+	Para Eletrodomésticos, existem sistemas embarcados que agregam em diversos equipamentos como:
+		-Controle de audio e reprodução de imagem de uma televisão
+		-Controle de temperatura de uma geladeira e ar condicionado
+		
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+		Existem diversas arquiteturas de hardware citadas em sala, como por exemplo:
+			-Microcontroladores
+			-Processadores de propósito geral (Gpps)
+			-DSP´s
+			-FPGA´s
+			-ASICs
+			-SoCs
+			MPSoCs
+		Dentre essas, as Gpps usam arquitetura de Von Neumann pela simplicidade
+		Já os microcontroladores são usados de forma dedicada, onde a velocidade de processamento não é tão alta.
+		Os SOCs ou system on a chip sao muito similares aos microcontroladores, mas normamelmente os microcontroladores
+		possuem menos de 100K de RAM e frequentemente são sistemas de chips único. Enquanto o SOC´s é usado para processadores
+		mais potentes.
+
+5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+	A raspberry Pi, em seus diversos modelos, tem um semi condutor como um chip, sendo um system-on-chip que fornece ao Raspberry Pi
+	Seu processamento de propósito geral, renderização gráfica e recusos de entrada/saída.
+	Esse modelo é utilizado em diversos celulares e outros aparelhos bastante potentes, porém para a aplicação da matéria, onde se pretende
+	desenvolver um sistema para aplicação real, procurando um custo relativamente baixo, a opção de um mini-comuptador, possível de se programar
+	e adaptar conforme a nossa necessidade, com portas USB, carregamento, entrada para cartão SD, HDMi, entre outros fatores, tornam a Raspberry PI
+	a melhor opção.
