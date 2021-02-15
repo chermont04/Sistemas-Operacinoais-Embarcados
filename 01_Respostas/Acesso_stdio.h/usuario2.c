@@ -10,7 +10,7 @@ int main(int argc, char **argv) {
   strcpy(copyarg, argv[1]);
   strcpy(idade, argv[2]);
 
-  file = fopen(strcat(argv[1],".txt"), "wb");
+  file = fopen(strcat(argv[1],".txt"), "w");
 
   fprintf(file, "Nome: %s\n", copyarg);
   fprintf(file,"Idade: %s anos\n", idade);
