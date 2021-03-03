@@ -11,6 +11,7 @@ int main(void) {
 
     if(pid_filho[i] == 0) {
       printf("Processo filho %d pid: %d\n", i+1, getpid());
+      sleep(1);
       return 0;
     }
   }

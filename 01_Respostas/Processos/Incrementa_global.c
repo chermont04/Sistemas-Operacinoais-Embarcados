@@ -19,7 +19,7 @@ int main () {
     pid_filho = fork();
     if(pid_filho == 0) {
       Incrementa_Variavel_Global(getpid());
-      i = 3;
+      i=3;
     }
   }
 
