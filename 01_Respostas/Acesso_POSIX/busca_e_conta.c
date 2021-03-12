@@ -30,21 +30,21 @@ read(fd, texto, size);
 texto[size] = '\0';
 
 for (int j = 0; j < strlen(texto); j++) {
-if(palavra[0] == texto[j]) {
-aux = j;
-aux2 = 0;
-while(aux2<strlen(palavra) && aux < strlen(texto)) {
-if(palavra[aux2] != texto[aux]) {
-aux = strlen(texto);
-} else {
-if (aux2 == (strlen(palavra)-1))
-ocorrencias++;
-aux++;
-aux2++;
-}
+  if(palavra[0] == texto[j]) {
+    aux = j;
+    aux2 = 0;
+    while(aux2<strlen(palavra) && aux < strlen(texto)) {
+    if(palavra[aux2] != texto[aux]) {
+      aux = strlen(texto);
+    } else {
+    if (aux2 == (strlen(palavra)-1))
+      ocorrencias++;
+    aux++;
+    aux2++;
+    }
 
-}
-}
+    }
+  }
 }
 close(fd);
 
